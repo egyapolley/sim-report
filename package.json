@@ -1,0 +1,22 @@
+{
+  "name": "sim-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.8",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.5"
+  }
+}
