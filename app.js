@@ -56,7 +56,7 @@ sequelize.sync()
         const message = generateEmailBody(finalResult)
         await sendMail({
             message,
-            to: "spolley@surflinegh.com",
+            to: "ccbackoffice@surflinegh.com",
             date: moment().format("YYYY-MM-DD")
         })
 
